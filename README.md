@@ -1,6 +1,7 @@
 # C#9 Records
 ###### Dorijan Fabijanic
-Most of this document was composed by watching: [Intro to Records in C# 9](https://www.youtube.com/watch?v=9Byvwa9yF-I).
+These are just notes I created following: [Intro to Records in C# 9](https://www.youtube.com/watch?v=9Byvwa9yF-I) by
+[Tim Corey](https://iamtimcorey.com/).
 
 ## Overview
 A record is a class with extra stuff. A record acts like a value type but it is a reference type just like any other class.
@@ -13,7 +14,7 @@ class Class1
     public string LastName { get; init; }
 }
 ```
-:man_technologist:* Init means that you can only set the value in the constructor or when you create the class using
+:man_technologist: *Init means that you can only set the value in the constructor or when you create the class using
 the curly brace syntax.*
 
 is very similar to this record:
@@ -113,7 +114,7 @@ public string FirstName
     init { }
 }
 
-Records can also have full properties defined.
+Records can also have full properties defined.  
 :keyboard: *To create a full property faster we can type in the phrase propfull*
 
 ### Inheritance
